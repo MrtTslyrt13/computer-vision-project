@@ -1,6 +1,5 @@
 import cv2
 from ultralytics import YOLO
-
 model = YOLO(r"C:\Users\DELL\source\repos\VisionProject\VisionProject\runs\detect\train5\weights\best.pt")
 source=input('Location of the video or index of the camera to use:')
 cap=None
